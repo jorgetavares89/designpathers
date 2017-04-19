@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: junit.framework.TestSuite$1
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in junit.framework.TestSuite$1
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.001 s  <<< FAILURE!
+junit.framework.AssertionFailedError: Test method isn't public: testISS(br.com.jorge.app.test.TaxCalculatorTest)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
+
+warning(junit.framework.TestSuite$1)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: Test method isn't public: testICMS(br.com.jorge.app.test.TaxCalculatorTest)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
+
